@@ -43,7 +43,7 @@ Para executar os testes, execute o seguinte comando no terminal na raiz do proje
 
 Para avaliar a cobertura de código, execute o seguinte comando no terminal:
 
-`$ coverage run -m unittest discover`
+`$ coverage run --branch -m unittest discover`
 
 Para visualizar o relatório de cobertura de código no terminal, execute o seguinte comando:
 
